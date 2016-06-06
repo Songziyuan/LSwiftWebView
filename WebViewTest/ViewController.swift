@@ -17,7 +17,7 @@ class ViewController: UIViewController ,UIWebViewDelegate{
         super.viewDidLoad()
         webView.delegate=self
         // Do any additional setup after loading the view, typically from a nib.
-        let url = NSURL (string: "https://www.baidu.com");
+        let url = NSURL (string: "http://www.apple.com.cn");
         let requestObj = NSURLRequest(URL: url!);
         activityIndicator.hidesWhenStopped = true
         activityIndicator.startAnimating()
