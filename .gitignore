@@ -30,3 +30,4 @@ local.properties
 SyamtabFileUploaderLog.txt
 __pycache__
 captures
+*.xcodeproj
